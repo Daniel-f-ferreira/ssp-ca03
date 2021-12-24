@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders>
+  <order>
+    <table-number>23</table-number>
+    <date>2021-12-23</date>
+    <total-amount>14.45</total-amount>
+    <consumptions>
+      <section name="Drinks" >
+        <entry>
+          <quantity>2</quantity>
+          <item>Coke</item>
+          <price>2.50</price>
+        </entry>
+      </section>
+      <section name="Side Dishes">
+        <entry>
+          <quantity>1</quantity>
+          <item>Potato Salad</item>
+          <price>4.95</price>
+        </entry>
+        <entry>
+          <quantity>1</quantity>
+          <item>Chips</item>
+          <price>4.50</price>
+        </entry>
+      </section>
+    <consumptions>
+  </order>
+</orders>
