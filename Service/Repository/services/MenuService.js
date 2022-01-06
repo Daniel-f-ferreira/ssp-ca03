@@ -1,11 +1,11 @@
 const menuRepository = require('../repositories/MenuRepository.js');
 
-function transformerXSLT() {
-    return menuRepository.transformerXSLT();
+function transformerMenuXSLT() {
+    return menuRepository.transformerMenuXSLT();
 }
 
-function getAllMenuItem() {
-    return menuRepository.getAllMenuItem();
+function transformerMenuManagementXSLT() {
+    return menuRepository.transformerMenuManagementXSLT();
 }
 
 function insertMenuItem(menuItem) {
@@ -16,4 +16,4 @@ function deleteMenuItem(menuItem) {
     return menuRepository.deleteMenuItem(menuItem);
 }
 
-module.exports = { transformerXSLT, getAllMenuItem, insertMenuItem, deleteMenuItem };
+module.exports = { transformerMenuXSLT, transformerMenuManagementXSLT, insertMenuItem, deleteMenuItem };
